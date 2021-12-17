@@ -1,0 +1,14 @@
+package interaction;
+
+public class Main01 {
+
+	public static void main(String[] args) {
+		// 판매자 생성
+		Seller s1 = new Seller(30);
+		// 구매자 생성
+		Buyer b1 = new Buyer(50000);
+		
+		s1.showSeller();
+		b1.showBuyer();
+	}
+}

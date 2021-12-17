@@ -1,0 +1,15 @@
+package constructor;
+
+public class Main02P204 {
+
+	public static void main(String[] args) {
+		
+		BasketballPlayer a = new BasketballPlayer(183, 120);
+		
+		a.dunkShoot();
+		
+		BasketballPlayer b = new BasketballPlayer(176, 120);
+		
+		b.dunkShoot();
+	}
+}

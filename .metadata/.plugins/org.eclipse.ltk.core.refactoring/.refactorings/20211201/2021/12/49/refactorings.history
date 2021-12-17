@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Unary01P165&apos; to &apos;Unary01P65&apos;&#x0D;&#x0A;- Original project: &apos;20211201&apos;&#x0D;&#x0A;- Original element: &apos;Unary01P165&apos;&#x0D;&#x0A;- Renamed element: &apos;Unary01P65&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Unary01P165&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{Unary01P165.java[Unary01P165" matchStrategy="1" name="Unary01P65" qualified="false" references="true" similarDeclarations="false" stamp="1638405128395" textual="false" version="1.0"/>
+</session>

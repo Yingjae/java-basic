@@ -1,0 +1,14 @@
+package constructor;
+
+public class Main03P204 {
+
+	public static void main(String[] args) {
+		Webtoon a = new Webtoon("쇼미더럭키짱", 0, "만신김성모", false);
+		
+		a.getInfo();
+		
+
+
+	}
+
+}

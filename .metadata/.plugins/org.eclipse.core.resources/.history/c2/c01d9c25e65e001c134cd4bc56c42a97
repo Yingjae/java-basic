@@ -1,0 +1,6 @@
+package polymorphism;
+
+public class Salaryman extends Person {
+	private int 
+
+}

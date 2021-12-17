@@ -1,0 +1,13 @@
+package game.inheritance;
+
+public class Main03 {
+
+	public static void main(String[] args) {
+		
+		Magician m1 = new Magician("임법사");
+			
+		m1.getInfo();
+
+	}
+
+}
