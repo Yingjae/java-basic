@@ -13,7 +13,7 @@ public class EnhancedFor01P162 {
 	    //     실행문들...;
 	    // }
 	    
-	    // 배열 냐뷰 요소의 갯수는 배열명.length로 확인할 수 있다.
+	    // 배열 내부 요소의 갯수는 배열명.length로 확인할 수 있다.
 	    System.out.println("배열 내부 요소 갯수!");
 	    System.out.println(arr1.length);
 	    for(int abcd: arr1) {
