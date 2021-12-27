@@ -11,7 +11,5 @@ public class Builder08P408 {
 		str.reverse();
 		
 		System.out.println(str);
-
 	}
-
 }
