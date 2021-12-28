@@ -1,8 +1,0 @@
-package game.polymorphism;
-
-public class Main02 {
-	Commoner c2 = new Commoner("전사");
-	Monster g1 = new Goblin();
-    Monster k1 = new Kobold();
-    Monster s1 = new Slime();
-}
