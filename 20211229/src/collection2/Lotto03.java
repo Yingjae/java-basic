@@ -1,5 +1,6 @@
 package collection2;
 
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
@@ -13,13 +14,11 @@ public class Lotto03 {
 		// 3. 당첨번호와 추첨번호를 비교해서 일치하면 반복 중지
 		// 4. 3에서 일치하지 않으면 반복회수를 1 더하고 다시 추첨번호 6개를 뽑고
 		// 이어서 비교해서 일치여부 검사
-		List<Integer> lotto = new LinkedList<>();
-		List<Integer> myLotto = new LinkedList<>();
+		List<Integer> lotto = new ArrayList<>();
 		
 		int getNum = 0;
-		int myNum = 0;
 		
-		while(lotto.size() != 6) {
+		while(lotto.size() != 2) {
 			getNum = (int)(Math.random() * 45) + 1;
 			if(!lotto.contains(getNum)) {
 				lotto.add(getNum);
@@ -30,12 +29,16 @@ public class Lotto03 {
 		
 		// 아래 6개 뽑고 비교하는 부분을 반복문으로 처리해야 합니다.
 		// 조건식은 당첨인 경우 탈출로 해주시면 됩니다.
+		List<Integer> myLotto = new ArrayList<>();
+		
+		int myNum = 0;
 		int count = 0;
+		
 		while(!lotto.equals(myLotto)) {
 			// 6개가 이미 뽑혀있는 상황이라면 당첨번호를 어떻게 해 줘야 할지?
 			myLotto.clear();
 			
-			while(myLotto.size() != 6) {
+			while(myLotto.size() != 2) {
 				myNum = (int)(Math.random() * 45) + 1;
 				if(!myLotto.contains(myNum)) {
 					myLotto.add(myNum);
